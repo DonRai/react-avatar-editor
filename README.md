@@ -1,7 +1,7 @@
-# react-avatar-editor
+# react-photo-editor
 
-<a href="http://badge.fury.io/js/react-avatar-editor"><img alt="npm version" src="https://badge.fury.io/js/react-avatar-editor.svg"></a>
-<a href="https://npmjs.org/package/react-avatar-editor"><img alt="Downloads" src="http://img.shields.io/npm/dm/react-avatar-editor.svg"></a>
+<a href="http://badge.fury.io/js/react-photo-editor"><img alt="npm version" src="https://badge.fury.io/js/react-photo-editor.svg"></a>
+<a href="https://npmjs.org/package/react-photo-editor"><img alt="Downloads" src="http://img.shields.io/npm/dm/react-photo-editor.svg"></a>
 
 Facebook like, avatar / profile picture component.
 Resize and crop your uploaded image using a clear user interface.
@@ -56,7 +56,7 @@ If you want the image sized in the dimensions of the canvas you can use `getImag
 
 ```javascript
 import React from 'react'
-import AvatarEditor from 'react-avatar-editor'
+import Editor from 'react-photo-editor'
 
 const MyEditor extends React.Component {
   onClickSave () {
@@ -74,7 +74,7 @@ const MyEditor extends React.Component {
 
   render () {
     return (
-        <AvatarEditor
+        <Editor
           ref={this.setEditorRef.bind(this)}
           image="http://example.com/initialimage.jpg"
           width={250}
